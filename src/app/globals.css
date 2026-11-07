@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #080D19;
+  --foreground: #F8FAFC;
+  --surface: #0E1626;
+  --surface-elevated: #131F33;
+  --border: #1C2B44;
+  --border-focus: #2E456B;
+  --accent: #3978F6;
+  --success: #20B486;
+  --warning: #F0A83B;
+  --danger: #EF4444;
+}
+
+body {
+  color: #F8FAFC;
+  background-color: #080D19;
+  /* Multi-stop ambient radial lighting + subtle noise grain texture */
+  background-image: 
+    radial-gradient(ellipse 85% 60% at 50% -10%, rgba(57, 120, 246, 0.12), transparent 55rem),
+    radial-gradient(ellipse 55% 45% at 85% 18%, rgba(99, 102, 241, 0.06), transparent 40rem),
+    radial-gradient(ellipse 45% 40% at 15% 30%, rgba(6, 182, 212, 0.05), transparent 38rem),
+    radial-gradient(ellipse 65% 50% at 70% 80%, rgba(139, 92, 246, 0.04), transparent 45rem),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.022'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  font-family: 'Plus Jakarta Sans', var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  letter-spacing: -0.012em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tabular numerals for monetary figures and budget numbers */
+.tnum, .tabular-nums {
+  font-variant-numeric: tabular-nums;
+  -webkit-font-feature-settings: "tnum" 1;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Clean dark fintech scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080D19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C2B44;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #283C5E;
+}
+
+/* Accessible focus styling */
+*:focus-visible {
+  outline: 2px solid #3978F6;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #101827 !important;
+  }
+}
+
+::selection {
+  background: rgba(57, 120, 246, 0.35);
+  color: #FFFFFF;
+}
+
+button, a, input, select {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,143 @@
+{
+  "connections": {
+    "reddish2675.testnet": {
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "network": "NEAR Testnet",
+      "status": "CONNECTED",
+      "lastSyncAt": "2026-11-06T19:19:41.711Z",
+      "registeredAt": "2026-11-05T18:28:37.782Z",
+      "totalReportedEvents": 3
+    },
+    "test-payer.testnet": {
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "test-payer.testnet",
+      "network": "NEAR Testnet",
+      "status": "CONNECTED",
+      "lastSyncAt": "2026-11-06T16:24:30.082Z",
+      "registeredAt": "2026-11-06T16:24:30.082Z",
+      "totalReportedEvents": 0
+    },
+    "daily-tester.testnet": {
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "daily-tester.testnet",
+      "network": "NEAR Testnet",
+      "status": "CONNECTED",
+      "lastSyncAt": "2026-11-06T16:24:59.889Z",
+      "registeredAt": "2026-11-06T16:24:59.889Z",
+      "totalReportedEvents": 0
+    },
+    "daily-cumul.testnet": {
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "daily-cumul.testnet",
+      "network": "NEAR Testnet",
+      "status": "CONNECTED",
+      "lastSyncAt": "2026-11-06T16:25:08.587Z",
+      "registeredAt": "2026-11-06T16:25:08.587Z",
+      "totalReportedEvents": 0
+    },
+    "reject-test.testnet": {
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reject-test.testnet",
+      "network": "NEAR Testnet",
+      "status": "CONNECTED",
+      "lastSyncAt": "2026-11-06T16:25:19.023Z",
+      "registeredAt": "2026-11-06T16:25:19.023Z",
+      "totalReportedEvents": 0
+    }
+  },
+  "eventsByHash": {
+    "HqsLmoyR1HUS8KYBSZri3JBF29uoEkYgJFgwU9UL5yD3": {
+      "eventId": "evt_1793942670105_PROP-MW3VPUSJ-724",
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "txHash": "HqsLmoyR1HUS8KYBSZri3JBF29uoEkYgJFgwU9UL5yD3",
+      "taskId": "TASK-MW3VPUSJ-487",
+      "promptSnippet": "External agent scheduled task: retrieve latest NEAR/USD price index and settle data fee",
+      "actionDescription": "Oracle Query Settlement",
+      "category": "AI Inference & Compute",
+      "timestamp": 1793942670105,
+      "receivedAt": "2026-11-06T05:24:30.105Z"
+    },
+    "3eMFr8Vdy8chmGaGbL18yrfG1vbYXtaBxgA3CPBCuemC": {
+      "eventId": "evt_1793977683082_PROP-MW4U5B60-314",
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "txHash": "3eMFr8Vdy8chmGaGbL18yrfG1vbYXtaBxgA3CPBCuemC",
+      "taskId": "TASK-MW4U5B5Z-981",
+      "promptSnippet": "External agent scheduled task: retrieve latest NEAR/USD price index and settle data fee",
+      "actionDescription": "Oracle Query Settlement",
+      "category": "AI Inference & Compute",
+      "timestamp": 1793977683082,
+      "receivedAt": "2026-11-06T15:08:03.083Z"
+    },
+    "CASF7QahANcPrfrMAyUiLNr6NnguMsinQBEttuPVFT5E": {
+      "eventId": "evt_1793992781711_PROP-MW56QWH9-595",
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "txHash": "CASF7QahANcPrfrMAyUiLNr6NnguMsinQBEttuPVFT5E",
+      "taskId": "TASK-MW56QWH9-496",
+      "promptSnippet": "Proposal 1",
+      "actionDescription": "Oracle Query Settlement",
+      "category": "AI Inference & Compute",
+      "timestamp": 1793992781711,
+      "receivedAt": "2026-11-06T19:19:41.711Z"
+    }
+  },
+  "eventsById": {
+    "evt_1793942670105_PROP-MW3VPUSJ-724": {
+      "eventId": "evt_1793942670105_PROP-MW3VPUSJ-724",
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "txHash": "HqsLmoyR1HUS8KYBSZri3JBF29uoEkYgJFgwU9UL5yD3",
+      "taskId": "TASK-MW3VPUSJ-487",
+      "promptSnippet": "External agent scheduled task: retrieve latest NEAR/USD price index and settle data fee",
+      "actionDescription": "Oracle Query Settlement",
+      "category": "AI Inference & Compute",
+      "timestamp": 1793942670105,
+      "receivedAt": "2026-11-06T05:24:30.105Z"
+    },
+    "evt_1793977683082_PROP-MW4U5B60-314": {
+      "eventId": "evt_1793977683082_PROP-MW4U5B60-314",
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "txHash": "3eMFr8Vdy8chmGaGbL18yrfG1vbYXtaBxgA3CPBCuemC",
+      "taskId": "TASK-MW4U5B5Z-981",
+      "promptSnippet": "External agent scheduled task: retrieve latest NEAR/USD price index and settle data fee",
+      "actionDescription": "Oracle Query Settlement",
+      "category": "AI Inference & Compute",
+      "timestamp": 1793977683082,
+      "receivedAt": "2026-11-06T15:08:03.083Z"
+    },
+    "evt_1793992781711_PROP-MW56QWH9-595": {
+      "eventId": "evt_1793992781711_PROP-MW56QWH9-595",
+      "agentId": "external-oracle-agent.testnet",
+      "agentName": "External Oracle Data Agent",
+      "accountId": "reddish2675.testnet",
+      "txHash": "CASF7QahANcPrfrMAyUiLNr6NnguMsinQBEttuPVFT5E",
+      "taskId": "TASK-MW56QWH9-496",
+      "promptSnippet": "Proposal 1",
+      "actionDescription": "Oracle Query Settlement",
+      "category": "AI Inference & Compute",
+      "timestamp": 1793992781711,
+      "receivedAt": "2026-11-06T19:19:41.711Z"
+    }
+  },
+  "eventsByAccount": {
+    "reddish2675.testnet": [
+      "HqsLmoyR1HUS8KYBSZri3JBF29uoEkYgJFgwU9UL5yD3",
+      "3eMFr8Vdy8chmGaGbL18yrfG1vbYXtaBxgA3CPBCuemC",
+      "CASF7QahANcPrfrMAyUiLNr6NnguMsinQBEttuPVFT5E"
+    ]
+  }
+}

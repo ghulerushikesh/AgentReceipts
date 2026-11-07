@@ -1,0 +1,170 @@
+{
+  "settings": {
+    "id": "setting-default-001",
+    "club_name": "CueClub - Grand Snooker & Pool Lounge",
+    "description": "Premier snooker & pool arena featuring Riley tournament tables, digital session timing, and luxury cues.",
+    "address": "Shop 14-16, Metro Boulevard, City Center",
+    "phone": "+91 98765 43210",
+    "email": "contact@cueclub.com",
+    "opening_time": "10:00",
+    "closing_time": "23:30",
+    "min_duration_minutes": 30,
+    "max_duration_minutes": 240,
+    "buffer_minutes": 15,
+    "grace_period_minutes": 10,
+    "deposit_percentage": 25,
+    "deposit_policy": "non_refundable",
+    "cancellation_policy": "Cancellations allowed up to 1 hour before scheduled start. Deposit forfeited for no-shows.",
+    "peak_hours": [
+      {
+        "start": "18:00",
+        "end": "22:00"
+      }
+    ],
+    "peak_rate_multiplier": 1.25,
+    "created_at": "2026-10-18T00:00:00.000Z",
+    "updated_at": "2026-10-18T00:00:00.000Z"
+  },
+  "tables": [
+    {
+      "id": "table-s1",
+      "name": "Tournament Arena 1",
+      "table_type": "snooker",
+      "status": "available",
+      "hourly_rate": 500,
+      "peak_hourly_rate": 650,
+      "description": "Riley Aristocrat 12ft full tournament snooker table with 6811 tournament cloth and Strachan rails.",
+      "is_active": true,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "table-s2",
+      "name": "Snooker Table 2",
+      "table_type": "snooker",
+      "status": "available",
+      "hourly_rate": 450,
+      "peak_hourly_rate": 550,
+      "description": "Full size 12ft championship table with heated slate and LED shadowless canopy.",
+      "is_active": true,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "table-s3",
+      "name": "Snooker Table 3 (Executive)",
+      "table_type": "snooker",
+      "status": "available",
+      "hourly_rate": 500,
+      "peak_hourly_rate": 600,
+      "description": "Private booth 12ft table with lounge seating and dedicated scoring monitor.",
+      "is_active": true,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "table-p1",
+      "name": "Pool Table 1 (Brunswick 9ft)",
+      "table_type": "pool",
+      "status": "available",
+      "hourly_rate": 350,
+      "peak_hourly_rate": 450,
+      "description": "Brunswick Gold Crown 9ft American pool table with Simonis 860 cloth and Aramith Pro balls.",
+      "is_active": true,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "table-p2",
+      "name": "Pool Table 2 (Diamond 9ft)",
+      "table_type": "pool",
+      "status": "available",
+      "hourly_rate": 350,
+      "peak_hourly_rate": 450,
+      "description": "Diamond Pro-Am 9ft table with blue tournament cloth and carbon fiber break cues available.",
+      "is_active": true,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "table-p3",
+      "name": "Pool Table 3 (English 7ft)",
+      "table_type": "pool",
+      "status": "available",
+      "hourly_rate": 300,
+      "peak_hourly_rate": 400,
+      "description": "Supreme Winner 7ft English 8-ball pool table with red speed cloth and micro pockets.",
+      "is_active": true,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "staff-001",
+      "full_name": "Vikram Mehta (Manager)",
+      "phone": "9988776655",
+      "email": "staff@cueclub.com",
+      "role": "owner",
+      "visit_count": 0,
+      "total_spend": 0,
+      "total_playing_minutes": 0,
+      "pending_dues": 0,
+      "last_visit": null,
+      "no_show_count": 0,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z",
+      "password_hash": "0a44f1b038f35df16759c3ca41cae579:c89c54229d02bac007402d51af7b882668289cc4e2a401502d36b972f09abc5f47869ccaeb174f13b41c9de58e18269a791a67a7edd7b02b1812fa2ca194cb0e"
+    },
+    {
+      "id": "staff-002",
+      "full_name": "Club Administrator",
+      "phone": "0000000000",
+      "email": "admin",
+      "role": "owner",
+      "visit_count": 0,
+      "total_spend": 0,
+      "total_playing_minutes": 0,
+      "pending_dues": 0,
+      "last_visit": null,
+      "no_show_count": 0,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z",
+      "password_hash": "195fc406866ed138467f2d7b5520b05e:8c9fadfa7883caecfaca0868b2b5af124d354c40946e7b4a22dda9281d083b8b3ce34c0d9249abd8781b2c7cefa98061a3e67b6619f3ad058a2a2326ada6ea9d"
+    },
+    {
+      "id": "cust-demo-001",
+      "full_name": "Rahul Verma (Demo Member)",
+      "phone": "9820011223",
+      "email": "rahul.verma@example.com",
+      "role": "customer",
+      "visit_count": 0,
+      "total_spend": 0,
+      "total_playing_minutes": 0,
+      "pending_dues": 0,
+      "last_visit": null,
+      "no_show_count": 0,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "cust-demo-002",
+      "full_name": "Amitabh Sen (Demo Member)",
+      "phone": "9819922334",
+      "email": "amitabh@example.com",
+      "role": "customer",
+      "visit_count": 0,
+      "total_spend": 0,
+      "total_playing_minutes": 0,
+      "pending_dues": 0,
+      "last_visit": null,
+      "no_show_count": 0,
+      "created_at": "2026-10-18T00:00:00.000Z",
+      "updated_at": "2026-10-18T00:00:00.000Z"
+    }
+  ],
+  "bookings": [],
+  "sessions": [],
+  "payments": [],
+  "logs": []
+}
